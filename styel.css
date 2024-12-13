@@ -1,0 +1,249 @@
+.container{
+    height: 10000px;
+    width: 1460px;
+    padding: 20px;
+    /* border: 2px solid black; */
+    background-color: red;
+}
+h1{
+    color: black;
+    font-family: 'Courier New', Courier, monospace;
+}
+.main1{
+    width: 200px;
+    border: 2px solid black;
+    border-radius: 5px;
+    padding: 10px;
+    display: flex;
+    gap: 10px;
+    flex-direction: row;
+}
+.item1, .item2, .item3
+{
+    width: 50px;
+    height: 50px;
+    color: white;
+    background-color:black;
+    border-radius: 5px;
+    padding: 15px;
+    text-align: center;
+}
+.main2{
+    width: 150px;
+    border: 2px solid black;
+    border-radius: 5px;
+    padding: 10px;
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+}
+.main3{
+    width: 150px;
+    border: 2px solid black;
+    border-radius: 5px;
+    padding: 10px;
+    display: flex;
+    gap: 10px;
+    flex-direction:row-reverse;
+}
+.main4{
+    width: 150px;
+    border: 2px solid black;
+    border-radius: 5px;
+    padding: 10px;
+    display: flex;
+    gap: 10px;
+    flex-direction: column-reverse;
+}
+.main5{
+    width: 150px;
+    border: 2px solid black;
+    border-radius: 5px;
+    padding: 10px;
+    display: flex;
+    gap: 10px;
+    align-items: flex-start;
+}
+.main6{
+    width: 150px;
+    height: 300px;
+    border: 2px solid black;
+    border-radius: 5px;
+    padding: 10px;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+.main7{
+    width: 150px;
+    height: 300px;
+    border: 2px solid black;
+    border-radius: 5px;
+    padding: 10px;
+    display: flex;
+    gap: 10px;
+    align-items: end;
+}
+.main8{
+    width: 200px;
+    height: 200px;
+    border: 2px solid black;
+    border-radius: 5px;
+    padding: 10px;
+    display: flex;
+    gap: 10px;
+    align-items: stretch;
+}
+.itemd, .iteme, .itemf{
+    width:;
+    color: white;
+    background-color:black;
+    border-radius: 5px;
+    padding: 15px;
+    text-align: center;
+}
+.main9{
+    width: 200px;
+    height: 200px;
+    border: 2px solid black;
+    border-radius: 5px;
+    padding: 10px;
+    display: flex;
+    gap: 10px;
+    justify-content: flex-start;
+}
+.itemg, .itemh, .itemi{
+    
+    color: white;
+    background-color:black;
+    border-radius: 5px;
+    padding: 15px;
+    text-align: center;
+}
+.main10{
+    width:400px;
+    height: 200px;
+    border: 2px solid black;
+    border-radius: 5px;
+    padding: 10px;
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+ }
+ .main11{
+    width:400px;
+    height: 200px;
+    border: 2px solid black;
+    border-radius: 5px;
+    padding: 10px;
+    display: flex;
+    gap: 10px;
+    justify-content:flex-end;
+ }
+ .main12{
+    width:400px;
+    height: 200px;
+    border: 2px solid black;
+    border-radius: 5px;
+    padding: 10px;
+    display: flex;
+    gap: 10px;
+    justify-content: space-between;
+ }
+ .main13{
+    width:400px;
+    height: 200px;
+    border: 2px solid black;
+    border-radius: 5px;
+    padding: 10px;
+    display: flex;
+    gap: 10px;
+    justify-content:space-around;
+}
+.main14{
+    width:400px;
+    height: 200px;
+    border: 2px solid black;
+    border-radius: 5px;
+    padding: 10px;
+    display: flex;
+    gap: 10px;
+    justify-content:space-evenly;
+}
+.item4, .item5, .item6, .item7, .item8, .item9
+{
+    width: 50px;
+    color: white;
+    background-color:black;
+    border-radius: 5px;
+    padding: 15px;
+    text-align: center;
+
+}
+.main15{
+    width:300px;
+    height: 200px;
+    border: 2px solid black;
+    border-radius: 5px;
+    padding: 10px;
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    align-content: flex-start;
+}
+.main16{
+    width:300px;
+    height: 200px;
+    border: 2px solid black;
+    border-radius: 5px;
+    padding: 10px;
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    align-content: center;
+}
+.main17{
+    width:300px;
+    height: 200px;
+    border: 2px solid black;
+    border-radius: 5px;
+    padding: 10px;
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    align-content: flex-end;
+}
+.main18{
+    width:300px;
+    height: 200px;
+    border: 2px solid black;
+    border-radius: 5px;
+    padding: 10px;
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    align-content:space-between;
+}
+.main19{
+    width:300px;
+    height: 200px;
+    border: 2px solid black;
+    border-radius: 5px;
+    padding: 10px;
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    align-content:space-around;
+}
+.main20{
+    width:300px;
+    height: 400px;
+    border: 2px solid black;
+    border-radius: 5px;
+    padding: 10px;
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    align-content: stretch;
+}
+
